@@ -1,0 +1,43 @@
+.button4{
+    margin: 20px;
+    height: 58px;
+    width: 134px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #633AA8;
+    color: white;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 2;
+}
+.button4:hover{
+    width: 58px;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+}
+.half-circle {
+    width: 58px;           /* Yarım dairenin genişliği */
+    height: 29px;          /* Yarım dairenin yüksekliği (yarım daire için yarısı kadar olmalı) */
+    background-color: #3498db;  /* Yarım dairenin rengi */
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+.button4:hover .download{
+    display: none;
+}
+.down_arrow{
+    fill: white;
+    width: 20px;
+    display: none;
+}
+.button4:hover .down_arrow{
+    display: inline;
+}
+
+
+

@@ -1,0 +1,56 @@
+.button3{
+    margin: 20px;
+    height: 55px;
+    width: 134px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #633AA8;
+    color: white;
+    margin-top: 100px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    
+}
+
+@keyframes slideUpFade {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+}
+
+.button:hover .reg1 {
+    animation: slideUpFade 0.5s forwards ease;
+}
+
+/* Metin (span) */
+.button .reg1 {
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+/* .button3 .reg1{
+    transition: transform 0.5s ease, opacity 0,3s linear;
+    position: absolute;
+
+}
+.button3:hover .reg1{
+    transform: translateY(-10px);
+}*/
+.button3 .reg2{
+    display: none;
+    transform: translateY(20px);
+} 
+

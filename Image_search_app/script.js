@@ -35,12 +35,18 @@ async function searchImages(){
 
         imageWrapper.appendChild(image);
         imageWrapper.appendChild(imageLink);
-        searchResults.appendChild(imageWrapper);  
+        searchResults.appendChild(imageWrapper);
+        
     });
+
+    
+
     page++;
     if(page > 1){
         showMore.style.display = "block";
     }
+
+  
 }
 
 formEl.addEventListener("submit", (event) =>{
@@ -52,3 +58,4 @@ formEl.addEventListener("submit", (event) =>{
 showMore.addEventListener("click", (event) =>{
     searchImages();
 })
+
